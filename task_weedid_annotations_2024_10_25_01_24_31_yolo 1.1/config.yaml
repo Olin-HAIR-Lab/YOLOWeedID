@@ -1,0 +1,7 @@
+path: /home/xavier/Robolab/data
+train: images/train
+val: images/val
+
+names: 
+  0: Weed
+  1: Lettuce
