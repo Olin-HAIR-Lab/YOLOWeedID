@@ -1,21 +1,25 @@
-# README template
+# Weed Identification Using Yolo
 
 By Xavier Nishikawa, Naomi Francis, Irene Hong, Ben Ricket
 
 ## Project Description
 
-INSERT Video
-
-[![Video Title](https://youtu.be/ZdfIrKPBTg4)](https://youtu.be/ZdfIrKPBTg4)
-
 This repo uses YOLOV10 to identify weeds and lettuce using bounding boxes or semantic segmentation.
+
+[![Weed Identification Demo](https://youtu.be/ZdfIrKPBTg4)](https://youtu.be/ZdfIrKPBTg4)
 
 ## Install Instructions
 
-If your package requires certain packages that need to be downloaded, add instructions on how to do so here.  
-You can embedd terminal commands in markdown like this:
+Clone the repository in desired directory
+```bash
+https://github.com/Olin-HAIR-Lab/YOLOWeedID.git
+```
 
-```python
+This project uses Python 3.12.2
+
+Download the following requirements once you have cloned the repo
+
+```bash
 pip install -r requirements.txt
 ```
 
