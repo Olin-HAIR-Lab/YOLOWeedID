@@ -1,17 +1,31 @@
-# Weed ID Using YOLOV10
-## The purpose of this repo is to identify weeds and lettuce for Robolab (Olin Research Team)!
+# README template
 
+By Xavier Nishikawa, Naomi Francis, Irene Hong, Ben Ricket
 
-### If you would like to run this code, there are a few prerequisites. 
+## Project Description
 
-### Using Python version 3.12.2, I don't know which versions will work, but I know the newest one won't. 
+INSERT Video
 
-#### Clone this repository!
+[![Video Title](https://youtu.be/ZdfIrKPBTg4)](https://youtu.be/ZdfIrKPBTg4)
 
-#### Download the requirements.txt file
+This repo uses YOLOV10 to identify weeds and lettuce using bounding boxes or semantic segmentation.
+
+## Install Instructions
+
+If your package requires certain packages that need to be downloaded, add instructions on how to do so here.  
+You can embedd terminal commands in markdown like this:
 
 ```python
 pip install -r requirements.txt
 ```
 
-#### This will probably have a lot of issues so if you have any problems, message me pls!
+## Methodology
+
+This is where you can do in-depth about how this repo works. Think of this section as writing a project report for a class.  
+_Note: Markdown supports LaTex, so you can use it to embedd equations_
+
+$$a^2 + b^2 = c^2$$
+
+## Troubleshooting (Optional)
+
+If there are common errors that might occur when running your project, you can mention how to solve them here.
