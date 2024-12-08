@@ -1,7 +1,7 @@
 task: detect
 mode: train
-model: /home/xavier/Robolab/runs/detect/train5/weights/last.pt
-data: /home/xavier/Robolab/config.yaml
+model: runs/detect/train5/weights/last.pt
+data: config.yaml
 epochs: 100
 time: null
 patience: 100

@@ -1,4 +1,3 @@
-import os
 from pathlib import Path
 
 def cleanup_unmatched_files(img_dir, txt_dir):

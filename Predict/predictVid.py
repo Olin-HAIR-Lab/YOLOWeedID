@@ -4,7 +4,7 @@ from ultralytics import YOLO
 import time
 
 # Load the model
-model = YOLO('last.pt', task='segment')
+model = YOLO('runs/detect/train14/weights/last.pt')
 
 # Video paths
 input_video_path = 'videos/video3.mp4'

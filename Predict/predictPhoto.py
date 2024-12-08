@@ -25,7 +25,7 @@ def draw_boxes(image, results, conf_threshold=0.25):
     return img
 
 # Load model
-model = YOLOv10('yolov10/runs/detect/train3/weights/last.pt')
+model = YOLOv10('runs/detect/train14/weights/last.pt')
 
 # Read image
 image_path = 'predictPhotoData/0Cw6Uz8z.jpg'

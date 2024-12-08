@@ -1,7 +1,7 @@
 task: detect
 mode: train
 model: yolov10n.yaml
-data: /home/xavier/Robolab/config.yaml
+data: config.yaml
 epochs: 100
 time: null
 patience: 100

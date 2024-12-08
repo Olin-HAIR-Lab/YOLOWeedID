@@ -1,3 +1,6 @@
+'''
+Uses trained yolo model to detect weeds and lettuce in real time on the real sense camera
+'''
 import pyrealsense2 as rs
 import numpy as np
 import cv2

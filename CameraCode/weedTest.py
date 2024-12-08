@@ -1,3 +1,7 @@
+'''
+Uses trained yolo model to detect weeds and lettuce in real time on the webcam
+'''
+
 from ultralytics import YOLO
 import cv2
 import math 
