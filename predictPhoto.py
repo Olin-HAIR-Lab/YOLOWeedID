@@ -25,10 +25,10 @@ def draw_boxes(image, results, conf_threshold=0.25):
     return img
 
 # Load model
-model = YOLOv10('/home/xavier/Robolab/yolov10/runs/detect/train3/weights/last.pt')
+model = YOLOv10('yolov10/runs/detect/train3/weights/last.pt')
 
 # Read image
-image_path = '//home/xavier/Robolab/predictPhotoData/0Cw6Uz8z.jpg'
+image_path = 'predictPhotoData/0Cw6Uz8z.jpg'
 image = cv2.imread(image_path)
 
 # Run inference
@@ -38,7 +38,7 @@ results = model(image)
 output_image = draw_boxes(image, results)
 
 # Save the result
-output_path = '/home/xavier/Robolab/predictPhotoData/output_detailed.jpg'
+output_path = 'predictPhotoData/output_detailed.jpg'
 cv2.imwrite(output_path, output_image)
 
 print(f"Annotated image saved to: {output_path}")

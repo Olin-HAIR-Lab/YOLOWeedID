@@ -4,11 +4,11 @@ from ultralytics import YOLO
 import time
 
 # Load the model
-model = YOLO('/home/irene/Robolab/last.pt', task='segment')
+model = YOLO('last.pt', task='segment')
 
 # Video paths
-input_video_path = '/home/irene/Robolab/videos/video3.mp4'
-output_video_path = '/home/irene/Robolab/videos/output.mp4'
+input_video_path = 'videos/video3.mp4'
+output_video_path = 'videos/output.mp4'
 
 # Open the video
 video_capture = cv2.VideoCapture(input_video_path)

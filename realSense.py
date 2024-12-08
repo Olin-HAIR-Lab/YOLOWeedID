@@ -10,7 +10,7 @@ cfg = rs.config()
 cfg.enable_stream(rs.stream.color, 1920,1080, rs.format.bgr8, 30)
 cfg.enable_stream(rs.stream.depth, 640,480, rs.format.z16, 30)
 
-model = YOLOv10('./runs/detect/train14/weights/last.pt')  # or another version of YOLOv10 (e.g., yolov10s.pt for small)
+model = YOLOv10('runs/detect/train14/weights/last.pt')  # or another version of YOLOv10 (e.g., yolov10s.pt for small)
 
 # object classes
 classNames = ["Lettuce", "Weed"]
