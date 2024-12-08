@@ -1,3 +1,6 @@
 data/
 phoenixbot_data/
 brightness_aug_data/
+task_weedid_annotations_2024_10_25_01_24_31_yolo 1.1/
+yolo-Weights/
+yolov10/

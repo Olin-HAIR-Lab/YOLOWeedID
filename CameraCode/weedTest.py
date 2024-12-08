@@ -7,10 +7,8 @@ cap = cv2.VideoCapture(0)
 cap.set(3, 1280)
 cap.set(4, 720)
 
-# USE THE YOLOTEST CONDA ENVIRONMENT
-
 # model
-model = YOLO('./runs/detect/train14/weights/last.pt')  # or another version of YOLOv10 (e.g., yolov10s.pt for small)
+model = YOLO('runs/detect/train14/weights/last.pt')  # or another version of YOLOv10 (e.g., yolov10s.pt for small)
 
 # object classes
 classNames = ["Lettuce", "Weed"]
